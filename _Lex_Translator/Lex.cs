@@ -52,6 +52,7 @@ namespace _Lex_Translator
         private void buttonOpen_Click(object sender, EventArgs e)
         {
             string FileName = string.Empty;
+            listBoxCode.Items.Clear();
             OpenFileDialog openFileDialog = new OpenFileDialog()
             {
                 Filter = "Text|*.txt",
