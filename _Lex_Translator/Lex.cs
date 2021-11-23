@@ -24,6 +24,11 @@ namespace _Lex_Translator
         private void buttonLexAnalisys_Click(object sender, EventArgs e)
         {
             string Code = string.Empty;
+            dataGridViewOpers.Rows.Clear();
+            dataGridViewLex.Rows.Clear(); 
+            dataGridViewIdenList.Rows.Clear(); 
+            dataGridViewDiv.Rows.Clear();
+            dataGridViewConst.Rows.Clear();
             foreach (string s in this.Code)
             {
                 Code += s;
